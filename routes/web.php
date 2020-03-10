@@ -14,3 +14,13 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+//Apis
+
+Route::apiResource('apiPersonal','apiPersonalesController');
+
+//Vista
+
+Route::view('personal','personales.personales');
+
+Route::view('carrera','carreras');

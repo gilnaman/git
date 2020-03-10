@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::view('becas','becas');
+
+Route::apiResource('apibeca','ApiBecasController');

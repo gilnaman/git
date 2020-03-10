@@ -1,0 +1,154 @@
+body {
+	background: #e9ebee;
+	font-size: 16px;
+	font-family: 'open Sans',sans-serif;
+}
+.barra-lateral .logo .img{
+	display: inline-block;
+	width: 52px;
+	height: 52px;
+	overflow: hidden;
+	border-radius: 100px
+}
+.barra-lateral{
+	background: #262a34;
+	color:#fff;
+	min-width: 250px;
+	min-height: 100vh;
+	padding: 0; 
+}
+.barra-lateral a {
+	color: #fff;
+}
+.barra-lateral.logo{
+	background: #0275db;
+	margin-bottom: 2px;
+	align-content: center;
+}
+.barra-lateral .logo h2{
+	font-size: 50px;
+	font-family: 'Roboto', sans-serif;
+	padding: 20px 0;
+	text-align: center;
+	font-weight: 300;
+	margin: 0;
+}
+.barra-lateral .menu a{
+	display: block;
+	padding: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	border-bottom: 1px	solid rgba(255,255,255,.1);
+}
+.barra-lateral .menu a:hover{
+	background: #35ae6b;
+	text-decoration: none;
+}
+.barra-lateral .menu a i{
+	margin-right: 20px;
+	font-weight: normal;
+}
+@media screen and (max-width:768px){
+	.barra-lateral{
+		min-width: auto;
+	}
+	.barra-lateral .logo{
+		display: none;
+	}
+	.barra-lateral .menu a span{
+		display: none;
+	}
+	.barra-lateral .menu a i{
+		margin: 0;
+	}
+}
+@media screen and (max-width: 575px){
+
+	.barra-lateral{
+		min-height: auto;
+	}
+	.barra-lateral .menu a{
+		display: inline-block;
+		border-bottom: none;
+	}
+	.main .widget form button{
+		width: 100%;
+	}
+}
+/*header master*/
+header{
+	background: #262a34;
+	padding: 10px 0;
+}
+header .menu{
+	padding: 0;
+}
+header .menu a{
+	color: #1176b6;
+	/*color: rgba(255,255,255,.8);*/
+	text-decoration: none;
+}
+header .menu a:hover{
+	color: rgba(255,255,255,1);
+	text-decoration: underline; 
+}
+header .menu .imagen{
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	overflow: hidden;
+	border-radius: 100px
+}
+/*header .logo{
+	display: inline-block;
+	width: 42px;
+	height: 42px;
+	overflow: hidden;
+	border-radius: 100px
+}
+*/@media screen and (max-width: 1900px){
+
+	header .menu{
+		padding: 15px 15px 15px 15px;
+	}
+}
+header .fecha{
+	text-orientation: all;
+	font-family: 'Roboto', sans-serif;
+	padding: 0 19px 0 0;
+	color: #ffffff;
+	font-size: 30px;
+
+
+}
+/*main*/
+/*main{
+	padding-top: 20px;
+}*/
+/*barra lateral izquierda*/
+/*main .barra-lateral-izquierda{
+	padding-bottom: 10px;
+	padding-left: 0;
+}
+main .barra-lateral-izquierda nav{
+	border-bottom: 1px solid #c7c8ca;
+	padding-bottom: 20px;
+}
+main .barra-lateral-izquierda nav a{
+	display: block;
+	padding: 3px;
+	font-family:'rooto', sans-serif;
+	color: 	#3d3d3d;
+}
+main .barra-lateral-izquierda nav a:hover{
+	background: #f2f2f2;
+	text-decoration: none;
+
+}
+a{
+	color: #1176b6;
+
+}
+a:hover{
+	text-decoration: underline;	
+}*/

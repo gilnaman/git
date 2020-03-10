@@ -1,0 +1,179 @@
+#navigation-placeholder-skeleton[data-is-collapsed="true"] {
+  width: 64px;
+}
+#navigation-placeholder-skeleton[data-is-collapsed="true"] .container-sidebar {
+  display: none;
+}
+#navigation-placeholder-skeleton[data-sidebar-type="project"]
+  .container-sidebar {
+  background-color: #f4f5f7;
+}
+#navigation-placeholder-skeleton[data-sidebar-type="project"]
+  .container-sidebar
+  .strong-shaded {
+  background-color: rgba(193, 199, 208, 0.75);
+}
+#navigation-placeholder-skeleton[data-sidebar-type="project"]
+  .container-sidebar
+  .light-shaded {
+  background-color: #dfe1e6;
+}
+#navigation-placeholder-skeleton[data-sidebar-type="project"][data-is-collapsed="true"]
+  .container-sidebar {
+  display: none;
+}
+#navigation-placeholder-skeleton[data-sidebar-type="project"][data-is-collapsed="true"]
+  .collapsed-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 16px;
+}
+#navigation-placeholder-skeleton[data-sidebar-type="project"][data-is-collapsed="true"]
+  .global-sidebar {
+  background-color: #f4f5f7;
+}
+#navigation-placeholder-skeleton[data-sidebar-type="project"][data-is-collapsed="true"]
+  .global-sidebar
+  .strong-shaded {
+  background-color: rgba(193, 199, 208, 0.75);
+}
+#navigation-placeholder-skeleton[data-sidebar-type="project"][data-is-collapsed="true"]
+  .global-sidebar
+  .light-shaded {
+  background-color: #dfe1e6;
+}
+#navigation-placeholder-skeleton[data-sidebar-type="settings"] .global-sidebar {
+  background-color: #172b4d;
+}
+#navigation-placeholder-skeleton[data-sidebar-type="settings"]
+  .container-sidebar {
+  background-color: #253858;
+}
+#navigation-placeholder-skeleton:not([data-sidebar-type="project"])
+  .container-content
+  .header-placeholder
+  .header-avatar-placeholder {
+  width: 100%;
+  margin-right: 0;
+}
+#navigation-placeholder-skeleton:not([data-sidebar-type="project"])
+  .collapsed-container,
+#navigation-placeholder-skeleton:not([data-sidebar-type="project"])
+  .container-content
+  .header-placeholder
+  .text-placeholder {
+  display: none;
+}
+#navigation-placeholder-skeleton {
+  width: 304px;
+}
+#navigation-placeholder-skeleton .navigation-skeleton-component {
+  display: flex;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+}
+#navigation-placeholder-skeleton .global-sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 64px;
+  height: 100%;
+  background-color: #0747a6;
+}
+#navigation-placeholder-skeleton .container-sidebar {
+  width: 240px;
+  height: 100%;
+  background-color: #0747a6;
+}
+#navigation-placeholder-skeleton .collapsed-container {
+  display: none;
+}
+#navigation-placeholder-skeleton .container-content {
+  padding: 24px 20px;
+}
+#navigation-placeholder-skeleton .header-avatar-placeholder {
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+}
+#navigation-placeholder-skeleton .items-placeholder {
+  margin-top: 24px;
+  padding-left: 8px;
+  padding-right: 16px;
+}
+#navigation-placeholder-skeleton .item-placeholder {
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+}
+#navigation-placeholder-skeleton .item-placeholder .icon-placeholder-small {
+  margin-right: 16px;
+}
+#navigation-placeholder-skeleton .text-placeholder {
+  flex-grow: 1;
+  height: 16px;
+  border-radius: 3px;
+}
+#navigation-placeholder-skeleton .icon-placeholder-small {
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+}
+#navigation-placeholder-skeleton .icon-placeholder-medium {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+}
+#navigation-placeholder-skeleton .icon-placeholder-large {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+#navigation-placeholder-skeleton .header-placeholder {
+  display: flex;
+  align-items: center;
+}
+#navigation-placeholder-skeleton
+  .header-placeholder
+  .header-avatar-placeholder {
+  margin-right: 16px;
+}
+#navigation-placeholder-skeleton .global-content-top {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 24px;
+}
+#navigation-placeholder-skeleton .global-content-top .icon-placeholder-small {
+  margin-bottom: 16px;
+}
+#navigation-placeholder-skeleton .global-content-top .icon-placeholder-large {
+  margin-bottom: 20px;
+}
+#navigation-placeholder-skeleton .global-content-bottom {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+#navigation-placeholder-skeleton
+  .global-content-bottom
+  .icon-placeholder-small {
+  margin-bottom: 12px;
+}
+#navigation-placeholder-skeleton
+  .collapsed-container
+  .header-avatar-placeholder {
+  margin-bottom: 8px;
+}
+#navigation-placeholder-skeleton .collapsed-container .icon-placeholder-small {
+  margin-top: 8px;
+}
+#navigation-placeholder-skeleton .strong-shaded {
+  background-color: hsla(0, 0%, 100%, 0.3);
+}
+#navigation-placeholder-skeleton .light-shaded {
+  background-color: hsla(0, 0%, 100%, 0.15);
+}

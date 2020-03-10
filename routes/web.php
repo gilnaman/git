@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('depa', function () {
+    return view('departamentos');
+});
+Route::apiResource('apiDepartamento','DepartamentoController');

@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+//enrutamiento de las localidades
+Route::view('local','localidades.localidades');
+
+Route::apiResource('apiLocal','ApiLocalidadesController');

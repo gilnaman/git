@@ -31,7 +31,7 @@
     </form>
 
     <br>
-    <button class="btn btn-md btn-success" data-toggle="modal" data-target="#agregar">Agregar</button>
+    <button class="btn btn-md btn-info" data-toggle="modal" data-target="#agregar">Agregar</button>
     
 
       <br><br>
